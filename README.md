@@ -49,7 +49,7 @@
 
 ## 效果图
 
-![](https://github.com/zhenzhencai/vueAdminDemo/blob/master/static/login.png)
+![](https://github.com/zhenzhencai/vueAdminDemo/blob/master/src/assets/login.png)
 
 
 Copyright (c) 2018-present ZhenzhenCai
