@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="200" src="./favicon.ico" alt="logo">
+  <img width="200" src="./src/assets/logo.svg" alt="logo">
   <br>
   <br>
 </p>
@@ -49,7 +49,7 @@
 
 ## 效果图
 
-![](https://github.com/zhenzhencai/vueAdminDemo/blob/master/src/assets/login.png)
+![](https://github.com/zhenzhencai/vueAdminDemo/blob/master/static/login.png)
 
 
 Copyright (c) 2018-present ZhenzhenCai
