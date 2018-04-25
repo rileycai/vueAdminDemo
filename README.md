@@ -1,26 +1,55 @@
+<p align="center">
+  <br>
+  <img width="200" src="./favicon.ico" alt="logo">
+  <br>
+  <br>
+</p>
+
+
 # vueAdminDemo
 
-A vue admin template with Element UI & axios & iconfont & permission control & lint
+<p align="left">
+  <a href="https://github.com/vuejs/vue">
+    <img src="https://img.shields.io/badge/vue-2.5.10-brightgreen.svg" alt="vue">
+  </a>
+  <a href="https://github.com/ElemeFE/element">
+    <img src="https://img.shields.io/badge/element--ui-2.0.8-brightgreen.svg" alt="element-ui">
+  </a>
+  <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="nofollow">
+    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
+  </a>
+  <a href="https://github.com/PanJiaChen/vue-element-admin/releases">
+    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
+  </a>
+</p>
 
-## Build Setup
+   vue后台管理模板，目前只完成登录页面。
 
-``` bash
+## 技术栈
+    vue2 + vuex + vue-router + webpack + axios + element-UI + easy-mock
 
-# Clone project
-git clone https://github.com/zhenzhencai/vueAdminDemo.git
 
-# Install dependencies
-npm install
+## 开发
+```bash
+    # 克隆项目
+    git clone https://github.com/zhenzhencai/vueAdminDemo.git
 
-# serve with hot reload at localhost:9528
-npm run dev
+    # 安装依赖
+    npm install
+    //or # 建议不要用cnpm  安装有各种诡异的bug 可以通过如下操作解决npm速度慢的问题
+    npm install --registry=https://registry.npm.taobao.org
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+    # 本地开发 开启服务
+    npm run dev
 ```
+
+
+## 效果图
+
+![](https://github.com/zhenzhencai/vueAdminDemo/blob/master/static/login.png)
 
 
 Copyright (c) 2018-present ZhenzhenCai
