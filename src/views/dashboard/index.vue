@@ -11,6 +11,8 @@
 
 <script>
 import echarts from 'echarts'
+require('echarts/theme/westeros')
+require('echarts/theme/walden')
 
 export default {
   name: 'dashboard',
@@ -565,7 +567,8 @@ export default {
     };
 
 
-    this.chartColumn = echarts.init(document.getElementById('chartColumn'));
+    this.chartColumn = echarts.init(document.getElementById('chartColumn'),'walden');
+    // this.chartColumn = echarts.init(document.getElementById('chartColumn'),'westeros');
     this.chartColumn.setOption(option);
   }
 }
