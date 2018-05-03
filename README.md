@@ -26,7 +26,7 @@
   </a>
 </p>
 
-   vue后台管理模板，目前只完成登录页面。
+   vue后台管理模板，目前只完成登录页面和主页
 
 ## 技术栈
     vue2 + vuex + vue-router + webpack + axios + element-UI + easy-mock
