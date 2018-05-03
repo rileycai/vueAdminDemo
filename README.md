@@ -51,5 +51,7 @@
 
 ![](https://github.com/zhenzhencai/vueAdminDemo/blob/master/static/login.png)
 
+![](https://github.com/zhenzhencai/vueAdminDemo/blob/master/static/home.png)
+
 
 Copyright (c) 2018-present ZhenzhenCai
