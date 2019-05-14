@@ -48,7 +48,7 @@
     cnpm install
     
     #这里需要添加echarts的两个主题文件，访问链接https://echarts.baidu.com/theme-builder/
-    #下载westeros.js,walden.js两个主题文件，将这两个文件放入node_modules/echarts/them文件夹下
+    #下载westeros.js,walden.js两个主题文件，将这两个文件放入node_modules/echarts/theme文件夹下
 
     # 本地开发 开启服务
     npm run dev
