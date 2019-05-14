@@ -37,6 +37,7 @@
     # 克隆项目
     git clone https://github.com/zhenzhencai/vueAdminDemo.git
     
+    #进入文件夹
     cd vueAdminDemo
 
     # 安装依赖
