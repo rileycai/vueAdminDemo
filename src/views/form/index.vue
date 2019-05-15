@@ -12,8 +12,6 @@
 <script>
 import { getChart } from '@/api/form'
 import echarts from 'echarts'
-require('echarts/theme/westeros')
-require('echarts/theme/walden')
 
 export default {
   name: 'form',
@@ -59,7 +57,7 @@ export default {
       getChart().then(response => {
         this.option.xAxis[0].data = response.data.xData
         this.option.series[0].data = response.data.yData
-        this.chartColumn = echarts.init(document.getElementById('chartColumn'),'walden')
+        this.chartColumn = echarts.init(document.getElementById('chartColumn'))
         this.chartColumn.setOption(this.option)
       })
     }

@@ -103,12 +103,17 @@ acorn@^5.0.0, acorn@^5.1.1, acorn@^5.5.0:
   resolved "http://bnpm.byted.org/acorn/download/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
   integrity sha1-Z6ojG/iBKXS4UjWpZ3Hra9B+onk=
 
+ajv-errors@^1.0.0:
+  version "1.0.1"
+  resolved "http://bnpm.byted.org/ajv-errors/download/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
+  integrity sha1-81mGrOuRr63sQQL72FAUlQzvpk0=
+
 ajv-keywords@^2.0.0:
   version "2.1.1"
   resolved "http://bnpm.byted.org/ajv-keywords/download/ajv-keywords-2.1.1.tgz#617997fc5f60576894c435f940d819e135b80762"
   integrity sha1-YXmX/F9gV2iUxDX5QNgZ4TW4B2I=
 
-ajv-keywords@^3.0.0:
+ajv-keywords@^3.0.0, ajv-keywords@^3.1.0:
   version "3.4.0"
   resolved "http://bnpm.byted.org/ajv-keywords/download/ajv-keywords-3.4.0.tgz#4b831e7b531415a7cc518cd404e73f6193c6349d"
   integrity sha1-S4Mee1MUFafMUYzUBOc/YZPGNJ0=
@@ -123,7 +128,7 @@ ajv@^5.0.0, ajv@^5.1.5, ajv@^5.3.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-ajv@^6.0.1, ajv@^6.5.5:
+ajv@^6.0.1, ajv@^6.1.0, ajv@^6.5.5:
   version "6.10.0"
   resolved "http://bnpm.byted.org/ajv/download/ajv-6.10.0.tgz#90d0d54439da587cd7e843bfb7045f50bd22bdf1"
   integrity sha1-kNDVRDnaWHzX6EO/twRfUL0ivfE=
@@ -177,7 +182,7 @@ ansi-styles@^2.2.1:
   resolved "http://bnpm.byted.org/ansi-styles/download/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
   integrity sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
 
-ansi-styles@^3.1.0, ansi-styles@^3.2.1:
+ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "http://bnpm.byted.org/ansi-styles/download/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
   integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
@@ -399,15 +404,15 @@ aws4@^1.8.0:
   resolved "http://bnpm.byted.org/aws4/download/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha1-8OAD2cqef1nHpQiUXXsu+aBKVC8=
 
-axios@0.17.1:
-  version "0.17.1"
-  resolved "http://bnpm.byted.org/axios/download/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
-  integrity sha1-LY4+XQvb1zJ/kbyBT1xXZg+Bgk0=
+axios@0.18.0:
+  version "0.18.0"
+  resolved "http://bnpm.byted.org/axios/download/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
+  integrity sha1-MtU+SFHv3AoRmTts0AB4nXDAUQI=
   dependencies:
-    follow-redirects "^1.2.5"
+    follow-redirects "^1.3.0"
     is-buffer "^1.1.5"
 
-babel-code-frame@^6.11.0, babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
+babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "http://bnpm.byted.org/babel-code-frame/download/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
   integrity sha1-Y/1D99weO7fONZR9uP42mj9Yx0s=
@@ -416,32 +421,7 @@ babel-code-frame@^6.11.0, babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-core@6.26.0:
-  version "6.26.0"
-  resolved "http://bnpm.byted.org/babel-core/download/babel-core-6.26.0.tgz#af32f78b31a6fcef119c87b0fd8d9753f03a0bb8"
-  integrity sha1-rzL3izGm/O8RnIew/Y2XU/A6C7g=
-  dependencies:
-    babel-code-frame "^6.26.0"
-    babel-generator "^6.26.0"
-    babel-helpers "^6.24.1"
-    babel-messages "^6.23.0"
-    babel-register "^6.26.0"
-    babel-runtime "^6.26.0"
-    babel-template "^6.26.0"
-    babel-traverse "^6.26.0"
-    babel-types "^6.26.0"
-    babylon "^6.18.0"
-    convert-source-map "^1.5.0"
-    debug "^2.6.8"
-    json5 "^0.5.1"
-    lodash "^4.17.4"
-    minimatch "^3.0.4"
-    path-is-absolute "^1.0.1"
-    private "^0.1.7"
-    slash "^1.0.0"
-    source-map "^0.5.6"
-
-babel-core@^6.26.0:
+babel-core@6.26.3, babel-core@^6.26.0:
   version "6.26.3"
   resolved "http://bnpm.byted.org/babel-core/download/babel-core-6.26.3.tgz#b2e2f09e342d0f0c88e2f02e067794125e75c207"
   integrity sha1-suLwnjQtDwyI4vAuBneUEl51wgc=
@@ -963,17 +943,17 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-plugin-transform-vue-jsx@3.5.0:
-  version "3.5.0"
-  resolved "http://bnpm.byted.org/babel-plugin-transform-vue-jsx/download/babel-plugin-transform-vue-jsx-3.5.0.tgz#6b1ad29351ad753919403675f0bf8b2a43e17671"
-  integrity sha1-axrSk1GtdTkZQDZ18L+LKkPhdnE=
+babel-plugin-transform-vue-jsx@3.7.0:
+  version "3.7.0"
+  resolved "http://bnpm.byted.org/babel-plugin-transform-vue-jsx/download/babel-plugin-transform-vue-jsx-3.7.0.tgz#d40492e6692a36b594f7e9a1928f43e969740960"
+  integrity sha1-1ASS5mkqNrWU9+mhko9D6Wl0CWA=
   dependencies:
     esutils "^2.0.2"
 
-babel-preset-env@1.6.1:
-  version "1.6.1"
-  resolved "http://bnpm.byted.org/babel-preset-env/download/babel-preset-env-1.6.1.tgz#a18b564cc9b9afdf4aae57ae3c1b0d99188e6f48"
-  integrity sha1-oYtWTMm5r99KrleuPBsNmRiOb0g=
+babel-preset-env@1.7.0:
+  version "1.7.0"
+  resolved "http://bnpm.byted.org/babel-preset-env/download/babel-preset-env-1.7.0.tgz#dea79fa4ebeb883cd35dab07e260c1c9c04df77a"
+  integrity sha1-3qefpOvriDzTXasH4mDBycBN93o=
   dependencies:
     babel-plugin-check-es2015-constants "^6.22.0"
     babel-plugin-syntax-trailing-function-commas "^6.22.0"
@@ -1002,7 +982,7 @@ babel-preset-env@1.6.1:
     babel-plugin-transform-es2015-unicode-regex "^6.22.0"
     babel-plugin-transform-exponentiation-operator "^6.22.0"
     babel-plugin-transform-regenerator "^6.22.0"
-    browserslist "^2.1.2"
+    browserslist "^3.2.6"
     invariant "^2.2.2"
     semver "^5.3.0"
 
@@ -1304,13 +1284,21 @@ browserslist@^1.3.6, browserslist@^1.5.2, browserslist@^1.7.6:
     caniuse-db "^1.0.30000639"
     electron-to-chromium "^1.2.7"
 
-browserslist@^2.1.2, browserslist@^2.10.0:
+browserslist@^2.10.0:
   version "2.11.3"
   resolved "http://bnpm.byted.org/browserslist/download/browserslist-2.11.3.tgz#fe36167aed1bbcde4827ebfe71347a2cc70b99b2"
   integrity sha1-/jYWeu0bvN5IJ+v+cTR6LMcLmbI=
   dependencies:
     caniuse-lite "^1.0.30000792"
     electron-to-chromium "^1.3.30"
+
+browserslist@^3.2.6:
+  version "3.2.8"
+  resolved "http://bnpm.byted.org/browserslist/download/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
+  integrity sha1-sABTYdZHHw9ZUnl6dvyYXx+Xj8Y=
+  dependencies:
+    caniuse-lite "^1.0.30000844"
+    electron-to-chromium "^1.3.47"
 
 buffer-from@^1.0.0:
   version "1.1.1"
@@ -1428,6 +1416,11 @@ camelcase@^4.1.0:
   resolved "http://bnpm.byted.org/camelcase/download/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
   integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
+camelcase@^5.2.0:
+  version "5.3.1"
+  resolved "http://bnpm.byted.org/camelcase/download/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
+  integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
+
 caniuse-api@^1.5.2:
   version "1.6.1"
   resolved "http://bnpm.byted.org/caniuse-api/download/caniuse-api-1.6.1.tgz#b534e7c734c4f81ec5fbe8aca2ad24354b962c6c"
@@ -1443,7 +1436,7 @@ caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
   resolved "http://bnpm.byted.org/caniuse-db/download/caniuse-db-1.0.30000967.tgz#a2e9e6260e026208250f3b2d587ef02314cefa86"
   integrity sha1-ounmJg4CYgglDzstWH7wIxTO+oY=
 
-caniuse-lite@^1.0.30000783, caniuse-lite@^1.0.30000792:
+caniuse-lite@^1.0.30000783, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000844:
   version "1.0.30000967"
   resolved "http://bnpm.byted.org/caniuse-lite/download/caniuse-lite-1.0.30000967.tgz#a5039577806fccee80a04aaafb2c0890b1ee2f73"
   integrity sha1-pQOVd4BvzO6AoEqq+ywIkLHuL3M=
@@ -1461,14 +1454,14 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-chalk@2.3.0:
-  version "2.3.0"
-  resolved "http://bnpm.byted.org/chalk/download/chalk-2.3.0.tgz#b5ea48efc9c1793dccc9b4767c93914d3f2d52ba"
-  integrity sha1-tepI78nBeT3MybR2fJORTT8tUro=
+chalk@2.4.2, chalk@^2.0.0, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
+  version "2.4.2"
+  resolved "http://bnpm.byted.org/chalk/download/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
+  integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
   dependencies:
-    ansi-styles "^3.1.0"
+    ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
-    supports-color "^4.0.0"
+    supports-color "^5.3.0"
 
 chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
@@ -1480,15 +1473,6 @@ chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
     has-ansi "^2.0.0"
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
-
-chalk@^2.0.0, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
-  version "2.4.2"
-  resolved "http://bnpm.byted.org/chalk/download/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
-  integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
-  dependencies:
-    ansi-styles "^3.2.1"
-    escape-string-regexp "^1.0.5"
-    supports-color "^5.3.0"
 
 chardet@^0.4.0:
   version "0.4.2"
@@ -1815,7 +1799,7 @@ content-type@~1.0.4:
   resolved "http://bnpm.byted.org/content-type/download/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
   integrity sha1-4TjMdeBAxyexlm/l5fjJruJW/js=
 
-convert-source-map@^1.5.0, convert-source-map@^1.5.1:
+convert-source-map@^1.5.1:
   version "1.6.0"
   resolved "http://bnpm.byted.org/convert-source-map/download/convert-source-map-1.6.0.tgz#51b537a8c43e0f04dec1993bffcdd504e758ac20"
   integrity sha1-UbU3qMQ+DwTewZk7/83VBOdYrCA=
@@ -1954,25 +1938,22 @@ css-color-names@0.0.4:
   resolved "http://bnpm.byted.org/css-color-names/download/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
   integrity sha1-gIrcLnnPhHOAabZGyyDsJ762KeA=
 
-css-loader@0.28.7:
-  version "0.28.7"
-  resolved "http://bnpm.byted.org/css-loader/download/css-loader-0.28.7.tgz#5f2ee989dd32edd907717f953317656160999c1b"
-  integrity sha1-Xy7pid0y7dkHcX+VMxdlYWCZnBs=
+css-loader@2.1.1:
+  version "2.1.1"
+  resolved "http://bnpm.byted.org/css-loader/download/css-loader-2.1.1.tgz#d8254f72e412bb2238bb44dd674ffbef497333ea"
+  integrity sha1-2CVPcuQSuyI4u0TdZ0/770lzM+o=
   dependencies:
-    babel-code-frame "^6.11.0"
-    css-selector-tokenizer "^0.7.0"
-    cssnano ">=2.6.1 <4"
-    icss-utils "^2.1.0"
-    loader-utils "^1.0.2"
-    lodash.camelcase "^4.3.0"
-    object-assign "^4.0.1"
-    postcss "^5.0.6"
-    postcss-modules-extract-imports "^1.0.0"
-    postcss-modules-local-by-default "^1.0.1"
-    postcss-modules-scope "^1.0.0"
-    postcss-modules-values "^1.1.0"
+    camelcase "^5.2.0"
+    icss-utils "^4.1.0"
+    loader-utils "^1.2.3"
+    normalize-path "^3.0.0"
+    postcss "^7.0.14"
+    postcss-modules-extract-imports "^2.0.0"
+    postcss-modules-local-by-default "^2.0.6"
+    postcss-modules-scope "^2.1.0"
+    postcss-modules-values "^2.0.0"
     postcss-value-parser "^3.3.0"
-    source-list-map "^2.0.0"
+    schema-utils "^1.0.0"
 
 css-select@^1.1.0:
   version "1.2.0"
@@ -1984,26 +1965,17 @@ css-select@^1.1.0:
     domutils "1.5.1"
     nth-check "~1.0.1"
 
-css-selector-tokenizer@^0.7.0:
-  version "0.7.1"
-  resolved "http://bnpm.byted.org/css-selector-tokenizer/download/css-selector-tokenizer-0.7.1.tgz#a177271a8bca5019172f4f891fc6eed9cbf68d5d"
-  integrity sha1-oXcnGovKUBkXL0+JH8bu2cv2jV0=
-  dependencies:
-    cssesc "^0.1.0"
-    fastparse "^1.1.1"
-    regexpu-core "^1.0.0"
-
 css-what@2.1:
   version "2.1.3"
   resolved "http://bnpm.byted.org/css-what/download/css-what-2.1.3.tgz#a6d7604573365fe74686c3f311c56513d88285f2"
   integrity sha1-ptdgRXM2X+dGhsPzEcVlE9iChfI=
 
-cssesc@^0.1.0:
-  version "0.1.0"
-  resolved "http://bnpm.byted.org/cssesc/download/cssesc-0.1.0.tgz#c814903e45623371a0477b40109aaafbeeaddbb4"
-  integrity sha1-yBSQPkViM3GgR3tAEJqq++6t27Q=
+cssesc@^3.0.0:
+  version "3.0.0"
+  resolved "http://bnpm.byted.org/cssesc/download/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
+  integrity sha1-N3QZGZA7hoVl4cCep0dEXNGJg+4=
 
-"cssnano@>=2.6.1 <4", cssnano@^3.4.0:
+cssnano@^3.4.0:
   version "3.10.0"
   resolved "http://bnpm.byted.org/cssnano/download/cssnano-3.10.0.tgz#4f38f6cea2b9b17fa01490f23f1dc68ea65c1c38"
   integrity sha1-Tzj2zqK5sX+gFJDyPx3GjqZcHDg=
@@ -2344,7 +2316,7 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-echarts@^4.1.0:
+echarts@^4.2.1:
   version "4.2.1"
   resolved "http://bnpm.byted.org/echarts/download/echarts-4.2.1.tgz#9a8ea3b03354f86f824d97625c334cf16965ef03"
   integrity sha1-mo6jsDNU+G+CTZdiXDNM8Wll7wM=
@@ -2361,19 +2333,21 @@ ejs@^2.5.6:
   resolved "http://bnpm.byted.org/ejs/download/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
   integrity sha1-SY7A1JVlWrxvI81hho2SZGQHGqA=
 
-electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
-  version "1.3.133"
-  resolved "http://bnpm.byted.org/electron-to-chromium/download/electron-to-chromium-1.3.133.tgz#c47639c19b91feee3e22fad69f5556142007008c"
-  integrity sha1-xHY5wZuR/u4+IvrWn1VWFCAHAIw=
+electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.47:
+  version "1.3.134"
+  resolved "http://bnpm.byted.org/electron-to-chromium/download/electron-to-chromium-1.3.134.tgz#550222bddac43c6bd6c445c3543a0fe8a615021d"
+  integrity sha1-VQIivdrEPGvWxEXDVDoP6KYVAh0=
 
-element-ui@2.0.8:
-  version "2.0.8"
-  resolved "http://bnpm.byted.org/element-ui/download/element-ui-2.0.8.tgz#cee493530a8e7a3c69bb83dc22f252a5b9ce0a11"
-  integrity sha1-zuSTUwqOejxpu4PcIvJSpbnOChE=
+element-ui@2.8.2:
+  version "2.8.2"
+  resolved "http://bnpm.byted.org/element-ui/download/element-ui-2.8.2.tgz#21a7a4cb92616b0f8b75d4d4e637d3a1cd8c09de"
+  integrity sha1-Iaeky5Jhaw+LddTU5jfToc2MCd4=
   dependencies:
     async-validator "~1.8.1"
     babel-helper-vue-jsx-merge-props "^2.0.0"
     deepmerge "^1.2.0"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.0"
     throttle-debounce "^1.0.1"
 
 elliptic@^6.0.0:
@@ -2873,11 +2847,6 @@ fast-levenshtein@~2.0.4:
   resolved "http://bnpm.byted.org/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fastparse@^1.1.1:
-  version "1.1.2"
-  resolved "http://bnpm.byted.org/fastparse/download/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
-  integrity sha1-kXKMWllC7O2FMSg8eUQe5BIsNak=
-
 faye-websocket@^0.10.0:
   version "0.10.0"
   resolved "http://bnpm.byted.org/faye-websocket/download/faye-websocket-0.10.0.tgz#4e492f8d04dfb6f89003507f6edbf2d501e7c6f4"
@@ -3015,7 +2984,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0, follow-redirects@^1.2.5:
+follow-redirects@^1.0.0, follow-redirects@^1.3.0:
   version "1.7.0"
   resolved "http://bnpm.byted.org/follow-redirects/download/follow-redirects-1.7.0.tgz#489ebc198dc0e7f64167bd23b03c4c19b5784c76"
   integrity sha1-SJ68GY3A5/ZBZ70jsDxMGbV4THY=
@@ -3544,12 +3513,12 @@ icss-replace-symbols@^1.1.0:
   resolved "http://bnpm.byted.org/icss-replace-symbols/download/icss-replace-symbols-1.1.0.tgz#06ea6f83679a7749e386cfe1fe812ae5db223ded"
   integrity sha1-Bupvg2ead0njhs/h/oEq5dsiPe0=
 
-icss-utils@^2.1.0:
-  version "2.1.0"
-  resolved "http://bnpm.byted.org/icss-utils/download/icss-utils-2.1.0.tgz#83f0a0ec378bf3246178b6c2ad9136f135b1c962"
-  integrity sha1-g/Cg7DeL8yRheLbCrZE28TWxyWI=
+icss-utils@^4.1.0:
+  version "4.1.0"
+  resolved "http://bnpm.byted.org/icss-utils/download/icss-utils-4.1.0.tgz#339dbbffb9f8729a243b701e1c29d4cc58c52f0e"
+  integrity sha1-M527/7n4cpokO3AeHCnUzFjFLw4=
   dependencies:
-    postcss "^6.0.1"
+    postcss "^7.0.14"
 
 ieee754@^1.1.4:
   version "1.1.13"
@@ -4211,7 +4180,7 @@ loader-utils@^0.2.15, loader-utils@^0.2.16:
     json5 "^0.5.0"
     object-assign "^4.0.1"
 
-loader-utils@^1.0.1, loader-utils@^1.0.2, loader-utils@^1.1.0:
+loader-utils@^1.0.1, loader-utils@^1.0.2, loader-utils@^1.1.0, loader-utils@^1.2.3:
   version "1.2.3"
   resolved "http://bnpm.byted.org/loader-utils/download/loader-utils-1.2.3.tgz#1ff5dc6911c9f0a062531a4c04b609406108c2c7"
   integrity sha1-H/XcaRHJ8KBiUxpMBLYJQGEIwsc=
@@ -4228,11 +4197,6 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash.camelcase@^4.3.0:
-  version "4.3.0"
-  resolved "http://bnpm.byted.org/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
-  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
-
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "http://bnpm.byted.org/lodash.memoize/download/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -4248,7 +4212,7 @@ lodash.uniq@^4.5.0:
   resolved "http://bnpm.byted.org/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0, lodash@~4.17.10:
+lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@~4.17.10:
   version "4.17.11"
   resolved "http://bnpm.byted.org/lodash/download/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha1-s56mIp72B+zYniyN8SU2iRysm40=
@@ -4722,15 +4686,16 @@ node-libs-browser@^2.0.0:
     util "^0.11.0"
     vm-browserify "0.0.4"
 
-node-notifier@5.1.2:
-  version "5.1.2"
-  resolved "http://bnpm.byted.org/node-notifier/download/node-notifier-5.1.2.tgz#2fa9e12605fa10009d44549d6fcd8a63dde0e4ff"
-  integrity sha1-L6nhJgX6EACdRFSdb82KY93g5P8=
+node-notifier@5.4.0:
+  version "5.4.0"
+  resolved "http://bnpm.byted.org/node-notifier/download/node-notifier-5.4.0.tgz#7b455fdce9f7de0c63538297354f3db468426e6a"
+  integrity sha1-e0Vf3On33gxjU4KXNU89tGhCbmo=
   dependencies:
     growly "^1.3.0"
-    semver "^5.3.0"
-    shellwords "^0.1.0"
-    which "^1.2.12"
+    is-wsl "^1.1.0"
+    semver "^5.5.0"
+    shellwords "^0.1.1"
+    which "^1.3.0"
 
 node-pre-gyp@^0.12.0:
   version "0.12.0"
@@ -4748,7 +4713,7 @@ node-pre-gyp@^0.12.0:
     semver "^5.3.0"
     tar "^4"
 
-node-sass@^4.8.3:
+node-sass@^4.12.0:
   version "4.12.0"
   resolved "http://bnpm.byted.org/node-sass/download/node-sass-4.12.0.tgz#0914f531932380114a30cc5fa4fa63233a25f017"
   integrity sha1-CRT1MZMjgBFKMMxfpPpjIzol8Bc=
@@ -4823,10 +4788,15 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-normalize.css@7.0.0:
-  version "7.0.0"
-  resolved "http://bnpm.byted.org/normalize.css/download/normalize.css-7.0.0.tgz#abfb1dd82470674e0322b53ceb1aaf412938e4bf"
-  integrity sha1-q/sd2CRwZ04DIrU86xqvQSk45L8=
+normalize-wheel@^1.0.1:
+  version "1.0.1"
+  resolved "http://bnpm.byted.org/normalize-wheel/download/normalize-wheel-1.0.1.tgz#aec886affdb045070d856447df62ecf86146ec45"
+  integrity sha1-rsiGr/2wRQcNhWRH32Ls+GFG7EU=
+
+normalize.css@8.0.1:
+  version "8.0.1"
+  resolved "http://bnpm.byted.org/normalize.css/download/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  integrity sha1-m5iiCHOLnMJjTKrLxC0THJdIe/M=
 
 npm-bundled@^1.0.1:
   version "1.0.6"
@@ -5466,36 +5436,37 @@ postcss-minify-selectors@^2.0.4:
     postcss "^5.0.14"
     postcss-selector-parser "^2.0.0"
 
-postcss-modules-extract-imports@^1.0.0:
-  version "1.2.1"
-  resolved "http://bnpm.byted.org/postcss-modules-extract-imports/download/postcss-modules-extract-imports-1.2.1.tgz#dc87e34148ec7eab5f791f7cd5849833375b741a"
-  integrity sha1-3IfjQUjsfqtfeR981YSYMzdbdBo=
+postcss-modules-extract-imports@^2.0.0:
+  version "2.0.0"
+  resolved "http://bnpm.byted.org/postcss-modules-extract-imports/download/postcss-modules-extract-imports-2.0.0.tgz#818719a1ae1da325f9832446b01136eeb493cd7e"
+  integrity sha1-gYcZoa4doyX5gyRGsBE27rSTzX4=
   dependencies:
-    postcss "^6.0.1"
+    postcss "^7.0.5"
 
-postcss-modules-local-by-default@^1.0.1:
-  version "1.2.0"
-  resolved "http://bnpm.byted.org/postcss-modules-local-by-default/download/postcss-modules-local-by-default-1.2.0.tgz#f7d80c398c5a393fa7964466bd19500a7d61c069"
-  integrity sha1-99gMOYxaOT+nlkRmvRlQCn1hwGk=
+postcss-modules-local-by-default@^2.0.6:
+  version "2.0.6"
+  resolved "http://bnpm.byted.org/postcss-modules-local-by-default/download/postcss-modules-local-by-default-2.0.6.tgz#dd9953f6dd476b5fd1ef2d8830c8929760b56e63"
+  integrity sha1-3ZlT9t1Ha1/R7y2IMMiSl2C1bmM=
   dependencies:
-    css-selector-tokenizer "^0.7.0"
-    postcss "^6.0.1"
+    postcss "^7.0.6"
+    postcss-selector-parser "^6.0.0"
+    postcss-value-parser "^3.3.1"
 
-postcss-modules-scope@^1.0.0:
-  version "1.1.0"
-  resolved "http://bnpm.byted.org/postcss-modules-scope/download/postcss-modules-scope-1.1.0.tgz#d6ea64994c79f97b62a72b426fbe6056a194bb90"
-  integrity sha1-1upkmUx5+XtipytCb75gVqGUu5A=
+postcss-modules-scope@^2.1.0:
+  version "2.1.0"
+  resolved "http://bnpm.byted.org/postcss-modules-scope/download/postcss-modules-scope-2.1.0.tgz#ad3f5bf7856114f6fcab901b0502e2a2bc39d4eb"
+  integrity sha1-rT9b94VhFPb8q5AbBQLiorw51Os=
   dependencies:
-    css-selector-tokenizer "^0.7.0"
-    postcss "^6.0.1"
+    postcss "^7.0.6"
+    postcss-selector-parser "^6.0.0"
 
-postcss-modules-values@^1.1.0:
-  version "1.3.0"
-  resolved "http://bnpm.byted.org/postcss-modules-values/download/postcss-modules-values-1.3.0.tgz#ecffa9d7e192518389f42ad0e83f72aec456ea20"
-  integrity sha1-7P+p1+GSUYOJ9CrQ6D9yrsRW6iA=
+postcss-modules-values@^2.0.0:
+  version "2.0.0"
+  resolved "http://bnpm.byted.org/postcss-modules-values/download/postcss-modules-values-2.0.0.tgz#479b46dc0c5ca3dc7fa5270851836b9ec7152f64"
+  integrity sha1-R5tG3Axco9x/pScIUYNrnscVL2Q=
   dependencies:
     icss-replace-symbols "^1.1.0"
-    postcss "^6.0.1"
+    postcss "^7.0.6"
 
 postcss-normalize-charset@^1.1.0:
   version "1.1.1"
@@ -5562,6 +5533,15 @@ postcss-selector-parser@^2.0.0, postcss-selector-parser@^2.2.2:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
+postcss-selector-parser@^6.0.0:
+  version "6.0.2"
+  resolved "http://bnpm.byted.org/postcss-selector-parser/download/postcss-selector-parser-6.0.2.tgz#934cf799d016c83411859e09dcecade01286ec5c"
+  integrity sha1-k0z3mdAWyDQRhZ4J3Oyt4BKG7Fw=
+  dependencies:
+    cssesc "^3.0.0"
+    indexes-of "^1.0.1"
+    uniq "^1.0.1"
+
 postcss-svgo@^2.1.1:
   version "2.1.6"
   resolved "http://bnpm.byted.org/postcss-svgo/download/postcss-svgo-2.1.6.tgz#b6df18aa613b666e133f08adb5219c2684ac108d"
@@ -5581,7 +5561,7 @@ postcss-unique-selectors@^2.0.2:
     postcss "^5.0.4"
     uniqs "^2.0.0"
 
-postcss-value-parser@^3.0.1, postcss-value-parser@^3.0.2, postcss-value-parser@^3.1.1, postcss-value-parser@^3.1.2, postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0:
+postcss-value-parser@^3.0.1, postcss-value-parser@^3.0.2, postcss-value-parser@^3.1.1, postcss-value-parser@^3.1.2, postcss-value-parser@^3.2.3, postcss-value-parser@^3.3.0, postcss-value-parser@^3.3.1:
   version "3.3.1"
   resolved "http://bnpm.byted.org/postcss-value-parser/download/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
   integrity sha1-n/giVH4okyE88cMO+lGsX9G6goE=
@@ -5595,7 +5575,7 @@ postcss-zindex@^2.0.1:
     postcss "^5.0.4"
     uniqs "^2.0.0"
 
-postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.6, postcss@^5.0.8, postcss@^5.2.16, postcss@^5.2.17:
+postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.8, postcss@^5.2.16, postcss@^5.2.17:
   version "5.2.18"
   resolved "http://bnpm.byted.org/postcss/download/postcss-5.2.18.tgz#badfa1497d46244f6390f58b319830d9107853c5"
   integrity sha1-ut+hSX1GJE9jkPWLMZgw2RB4U8U=
@@ -5614,7 +5594,7 @@ postcss@^6.0.0, postcss@^6.0.1, postcss@^6.0.14, postcss@^6.0.8:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^7.0.0:
+postcss@^7.0.0, postcss@^7.0.14, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.16"
   resolved "http://bnpm.byted.org/postcss/download/postcss-7.0.16.tgz#48f64f1b4b558cb8b52c88987724359acb010da2"
   integrity sha1-SPZPG0tVjLi1LIiYdyQ1mssBDaI=
@@ -5689,7 +5669,7 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
-private@^0.1.6, private@^0.1.7, private@^0.1.8:
+private@^0.1.6, private@^0.1.8:
   version "0.1.8"
   resolved "http://bnpm.byted.org/private/download/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha1-I4Hts2ifelPWUxkAYPz4ItLzaP8=
@@ -6000,15 +5980,6 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-regexpu-core@^1.0.0:
-  version "1.0.0"
-  resolved "http://bnpm.byted.org/regexpu-core/download/regexpu-core-1.0.0.tgz#86a763f58ee4d7c2f6b102e4764050de7ed90c6b"
-  integrity sha1-hqdj9Y7k18L2sQLkdkBQ3n7ZDGs=
-  dependencies:
-    regenerate "^1.2.1"
-    regjsgen "^0.2.0"
-    regjsparser "^0.1.4"
-
 regexpu-core@^2.0.0:
   version "2.0.0"
   resolved "http://bnpm.byted.org/regexpu-core/download/regexpu-core-2.0.0.tgz#49d038837b8dcf8bfa5b9a42139938e6ea2ae240"
@@ -6121,6 +6092,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "http://bnpm.byted.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+resize-observer-polyfill@^1.5.0:
+  version "1.5.1"
+  resolved "http://bnpm.byted.org/resize-observer-polyfill/download/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -6269,6 +6245,15 @@ schema-utils@^0.3.0:
   dependencies:
     ajv "^5.0.0"
 
+schema-utils@^1.0.0:
+  version "1.0.0"
+  resolved "http://bnpm.byted.org/schema-utils/download/schema-utils-1.0.0.tgz#0b79a93204d7b600d4b2850d1f66c2a34951c770"
+  integrity sha1-C3mpMgTXtgDUsoUNH2bCo0lRx3A=
+  dependencies:
+    ajv "^6.1.0"
+    ajv-errors "^1.0.0"
+    ajv-keywords "^3.1.0"
+
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "http://bnpm.byted.org/scss-tokenizer/download/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"
@@ -6289,7 +6274,7 @@ selfsigned@^1.9.1:
   dependencies:
     node-forge "0.7.5"
 
-"semver@2 || 3 || 4 || 5", semver@^5.3.0:
+"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.5.0:
   version "5.7.0"
   resolved "http://bnpm.byted.org/semver/download/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
   integrity sha1-eQp89v6lRZuslhELKbYEEtyP+Ws=
@@ -6425,7 +6410,7 @@ shelljs@0.7.8:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shellwords@^0.1.0:
+shellwords@^0.1.1:
   version "0.1.1"
   resolved "http://bnpm.byted.org/shellwords/download/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
   integrity sha1-1rkYHBpI05cyTISHHvvPxz/AZUs=
@@ -6794,7 +6779,7 @@ supports-color@^3.2.3:
   dependencies:
     has-flag "^1.0.0"
 
-supports-color@^4.0.0, supports-color@^4.2.1:
+supports-color@^4.2.1:
   version "4.5.0"
   resolved "http://bnpm.byted.org/supports-color/download/supports-color-4.5.0.tgz#be7a0de484dec5c5cddf8b3d59125044912f635b"
   integrity sha1-vnoN5ITexcXN34s9WRJQRJEvY1s=
@@ -7335,10 +7320,10 @@ vue-loader@13.5.0:
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-router@3.0.1:
-  version "3.0.1"
-  resolved "http://bnpm.byted.org/vue-router/download/vue-router-3.0.1.tgz#d9b05ad9c7420ba0f626d6500d693e60092cc1e9"
-  integrity sha1-2bBa2cdCC6D2JtZQDWk+YAkswek=
+vue-router@3.0.6:
+  version "3.0.6"
+  resolved "http://bnpm.byted.org/vue-router/download/vue-router-3.0.6.tgz#2e4f0f9cbb0b96d0205ab2690cfe588935136ac3"
+  integrity sha1-Lk8PnLsLltAgWrJpDP5YiTUTasM=
 
 vue-style-loader@3.0.3:
   version "3.0.3"
@@ -7356,10 +7341,10 @@ vue-style-loader@^3.0.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@2.5.10:
-  version "2.5.10"
-  resolved "http://bnpm.byted.org/vue-template-compiler/download/vue-template-compiler-2.5.10.tgz#8d2754677430bf520650a7e2aee9070635158fc5"
-  integrity sha1-jSdUZ3Qwv1IGUKfirukHBjUVj8U=
+vue-template-compiler@2.6.10:
+  version "2.6.10"
+  resolved "http://bnpm.byted.org/vue-template-compiler/download/vue-template-compiler-2.6.10.tgz#323b4f3495f04faa3503337a82f5d6507799c9cc"
+  integrity sha1-MjtPNJXwT6o1AzN6gvXWUHeZycw=
   dependencies:
     de-indent "^1.0.2"
     he "^1.1.0"
@@ -7369,15 +7354,15 @@ vue-template-es2015-compiler@^1.6.0:
   resolved "http://bnpm.byted.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@2.5.10:
-  version "2.5.10"
-  resolved "http://bnpm.byted.org/vue/download/vue-2.5.10.tgz#dcd772e2594ba994145f2f09522149d9a1e7841a"
-  integrity sha1-3Ndy4llLqZQUXy8JUiFJ2aHnhBo=
+vue@2.6.10:
+  version "2.6.10"
+  resolved "http://bnpm.byted.org/vue/download/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
+  integrity sha1-pysaQqTYKnIepDjRtr9V5mGVxjc=
 
-vuex@3.0.1:
-  version "3.0.1"
-  resolved "http://bnpm.byted.org/vuex/download/vuex-3.0.1.tgz#e761352ebe0af537d4bb755a9b9dc4be3df7efd2"
-  integrity sha1-52E1Lr4K9TfUu3Vam53Evj3379I=
+vuex@3.1.1:
+  version "3.1.1"
+  resolved "http://bnpm.byted.org/vuex/download/vuex-3.1.1.tgz#0c264bfe30cdbccf96ab9db3177d211828a5910e"
+  integrity sha1-DCZL/jDNvM+Wq52zF30hGCilkQ4=
 
 watchpack@^1.4.0:
   version "1.6.0"
@@ -7456,12 +7441,12 @@ webpack-dev-server@2.9.7:
     webpack-dev-middleware "^1.11.0"
     yargs "^6.6.0"
 
-webpack-merge@4.1.1:
-  version "4.1.1"
-  resolved "http://bnpm.byted.org/webpack-merge/download/webpack-merge-4.1.1.tgz#f1197a0a973e69c6fbeeb6d658219aa8c0c13555"
-  integrity sha1-8Rl6Cpc+acb77rbWWCGaqMDBNVU=
+webpack-merge@4.2.1:
+  version "4.2.1"
+  resolved "http://bnpm.byted.org/webpack-merge/download/webpack-merge-4.2.1.tgz#5e923cf802ea2ace4fd5af1d3247368a633489b4"
+  integrity sha1-XpI8+ALqKs5P1a8dMkc2imM0ibQ=
   dependencies:
-    lodash "^4.17.4"
+    lodash "^4.17.5"
 
 webpack-sources@^1.0.1:
   version "1.3.0"
@@ -7527,7 +7512,7 @@ which-module@^2.0.0:
   resolved "http://bnpm.byted.org/which-module/download/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
   integrity sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=
 
-which@1, which@^1.2.12, which@^1.2.9:
+which@1, which@^1.2.9, which@^1.3.0:
   version "1.3.1"
   resolved "http://bnpm.byted.org/which/download/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
   integrity sha1-pFBD1U9YBTFtqNYvn1CRjT2nCwo=
