@@ -18,8 +18,7 @@ export default {
     return {}
   },
   mounted: function() {
-    var dataMap = {};
-
+    var dataMap = {}
     function dataFormatter(obj) {
       var pList = ['西安', '深圳', '济南', '上海', '中关村', '武汉'];
       var temp;
